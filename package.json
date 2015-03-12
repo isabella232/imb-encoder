@@ -1,6 +1,6 @@
 {
   "name": "imb-encoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "USPS IMB Encoder",
   "main": "index.js",
   "scripts": {
