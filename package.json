@@ -1,0 +1,47 @@
+{
+  "name": "imb-encoder",
+  "version": "1.0.0",
+  "description": "USPS IMB Encoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "cover": "istanbul cover _mocha -- -R spec test/*",
+    "coveralls": "gulp coveralls",
+    "style": "gulp style",
+    "lint": "gulp lint",
+    "enforce": "gulp enforce"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lob/imb-encoder.git"
+  },
+  "keywords": [
+    "USPS",
+    "IMB"
+  ],
+  "author": "Peter Nagel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lob/imb-encoder/issues"
+  },
+  "homepage": "https://github.com/lob/imb-encoder",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-exit": "0.0.2",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-istanbul-enforcer": "^1.0.3",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-util": "^3.0.4",
+    "istanbul": "^0.3.7",
+    "jscs": "^1.11.3",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.2.1",
+    "yargs": "^3.5.3"
+  }
+}
